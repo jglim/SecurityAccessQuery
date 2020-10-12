@@ -10,7 +10,7 @@ SAQ requires .NET 4.6 or newer. You will also need to bring your own security DL
 
 ### Set up
 
-- Download SAQ from the [Releases page](https://github.com/jglim/SecurityAccessQuery/releases).
+- Download SAQ from the [Releases page](https://github.com/jglim/SecurityAccessQuery/releases/download/v1.0.0/SecurityAccessQuery_v1.0.0.zip).
 - Unzip the archive, including the empty Library folder.
 - Add your DLLs into the Library folder. **No DLLs are provided by default.**
 - Run SAQ.
@@ -26,7 +26,7 @@ SAQ requires .NET 4.6 or newer. You will also need to bring your own security DL
 
 ## Testing
 
-A set of tests are available here. As I do not own a C4, I used seed requests and generated keys that are shown in public screenshots and videos to verify that the generated values are correct.
+A set of tests are [available here](https://github.com/jglim/SecurityAccessQuery/blob/main/docs/tests.md). As I do not own a C4, I used seed requests and generated keys that are shown in public screenshots and videos to verify that the generated values are correct.
 
 ## Issues
 
