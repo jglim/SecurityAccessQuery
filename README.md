@@ -2,7 +2,7 @@
 
 Interact with Vector security DLLs that are used to generate Security Access Keys in a ECU challenge/response ("seed key").
 
-![Header image](https://raw.github.com/jglim/SecurityAccessQuery/main/docs/resources/SAQ_Header.png)
+![Header image](https://raw.githubusercontent.com/jglim/SecurityAccessQuery/main/docs/resources/SAQ_Header.png)
 
 ## Usage
 
@@ -50,7 +50,7 @@ At its essence, SAQ is simply a wrapper to call a target security DLL's key gene
 
 In my limited understanding, the DLLs are usually packaged in a container format, and only extracted by the vendor tools when they are required. For example, in the `MED40.smr-d` ODB file, the security DLLs are present as `med40_abgleich_00_00_01.dll` , `med40_flash_12_39_00.dll` and `med40_sec_00_00_01.dll`.
 
-![DB diff screenshot](https://raw.github.com/jglim/SecurityAccessQuery/main/docs/resources/diff.png)
+![DB diff screenshot](https://raw.githubusercontent.com/jglim/SecurityAccessQuery/main/docs/resources/diff.png)
 
 Recent ECUs seem to prefer JARs instead of DLLs, which should offer much better cross-platform support and disassembly quality.
 
